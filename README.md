@@ -2,16 +2,19 @@
 Simple Restful API using Java as programming language, Spring as framework, and Mysql as database.
 
 # Database Configuration
-CREATE DATABASE javarestapi;
-USE javarestapi;
-
-CREATE TABLE songs (
-id INT AUTO_INCREMENT PRIMARY KEY,
-title VARCHAR(50) NOT NULL,
-singer VARCHAR(50) NOT NULL
+<span>CREATE DATABASE javarestapi;<br/>
+CREATE TABLE songs (<br/>
+    id INT AUTO_INCREMENT PRIMARY KEY,<br/>
+    title VARCHAR(50) NOT NULL,<br/>
+    singer VARCHAR(50) NOT NULL<br/>
 );
+
+grant all on javarestapi.* to 'javarest'@'localhost';
+</span><br/>
+
 <br/>
-<h2> <strong>API Endpoint</strong></h2><br/>
+
+# API Endpoint
 <ul>
     <li> Create New Song<br/>
         POST: <a href="#">http://localhost:5555/song</a><br/>
