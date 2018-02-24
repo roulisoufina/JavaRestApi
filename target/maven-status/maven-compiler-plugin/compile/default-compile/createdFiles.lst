@@ -1,0 +1,9 @@
+rest/api/config/WebConfig.class
+rest/api/dao/SongDaoImpl.class
+rest/api/service/SongService.class
+rest/api/config/MyWebAppInitializer.class
+rest/api/config/AppConfig.class
+rest/api/controller/SongController.class
+rest/api/dao/SongDao.class
+rest/api/service/SongServiceImpl.class
+rest/api/model/Song.class
