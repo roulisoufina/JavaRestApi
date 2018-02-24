@@ -13,7 +13,7 @@ singer VARCHAR(50) NOT NULL
 <br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
-    <li> // create new song<br/>
+    <li> Create New Song<br/>
         POST: <a href="#">http://localhost:5555/song</a><br/>
         body:<br/>
         {<br/>
@@ -21,13 +21,13 @@ singer VARCHAR(50) NOT NULL
 	    "Singer":"Rachel Platten"<br/>
         }<br/>
     </li>
-    <li> // get all songs<br/>
+    <li> Get All Songs<br/>
         GET: <a href="#">http://localhost:5555/songs</a><br/>
     </li>
-    <li> // get specific song<br/>
+    <li> Get Song by Id<br/>
         GET: <a href="#">http://localhost:5555/song/3</a><br/>
     </li>
-    <li> // update a song<br/>
+    <li> Update A Song by Id<br/>
         PUT: <a href="#">http://localhost:5555/song/1</a><br/>
         body:<br/>
         {<br/>
@@ -35,7 +35,7 @@ singer VARCHAR(50) NOT NULL
   	    "singer": "Ed Sheeran"<br/>
         }</br>
     </li>
-    <li> // delete a song<br/>
+    <li> Delete A Song by Id<br/>
         GET: <a href="#">http://localhost:5555/song/3</a><br/>
     </li>
 </ul>
